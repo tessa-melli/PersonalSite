@@ -2,7 +2,7 @@
 
 ## About this project
 
-* This is the front end of a personal website created for a Web Development course. Languages used are HTML, CSS, and JavaScript. 
+* This is the front end of a personal website created for a Web Development course. It includes 5 pages: main, about me, portfolio, experience, and contact.
 
 ## Future directions
 
