@@ -1,0 +1,196 @@
+body {
+  background-color: #f4f1de;
+}
+
+.heading {
+  background-color: #3d405b;
+  text-align: center;
+  margin: 0;
+  padding: 1px;
+  display: block;
+  font: 25px Helvetica;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #8a887d;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font: 20px Helvetica;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.home {
+    background-color: #8a887d;
+}
+
+.home:hover {
+    background-color: #9e6b6b;
+}
+
+.home:active {
+    background-color: #8a887d;
+}
+
+.about {
+    background-color: #8a887d;
+}
+
+.about:hover {
+    background-color: #5f8177;
+}
+
+.about:active {
+    background-color: #8a887d;
+}
+
+.experience {
+    background-color: #8a887d;
+}
+
+.experience:hover {
+  background-color: #de7254;
+}
+
+.experience:active {
+    background-color: #8a887d;
+}
+
+.portfolio {
+    background-color: #3d405b;
+}
+
+.portfolio:hover {
+    background-color: #3d405b;
+}
+
+.portfolio:active {
+    background-color: #8a887d;
+}
+
+.contact {
+    background-color: #8a887d;
+}
+
+.contact:hover {
+    background-color: #e7a336;
+}
+
+.contact:active {
+    background-color: #8a887d;
+}
+
+.cardRow {
+  text-align: center;
+}
+
+.cardOuter {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  display: inline-block;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
+.cardInner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.cardOuter:hover .cardInner {
+  transform: rotateY(180deg);
+}
+
+.cardFront, .cardBack {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.cardFront {
+  background-color: #bbb;
+  color: black;
+}
+
+.cardBack {
+  background-color: #3d405b;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.cardFront h1 {
+  padding: 100px 0;
+  font: 30px serif bold;
+}
+
+.cardBack p {
+  padding: 20px 0;
+  font: 18px Helvetica;
+}
+
+.row1 {
+  width: 100%;
+  height: 40%;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+}
+
+.row1 .button {
+  background-color: #3d405b;
+  border: none;
+  color: white;
+  padding: 10% 6%;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 3% 3%;
+}
+
+.row2 {
+  width: 100%;
+}
+
+.github {
+  background-color: #8a887d;
+  border: none;
+  color: white;
+  width: 40%;
+  margin-left: 30%;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.github:hover {
+  background-color: #3d405b;
+}
+
+.github:active {
+    background-color: #8a887d;
+}

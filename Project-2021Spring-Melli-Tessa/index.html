@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta name="author" content="Tessa Melli">
+      <meta name="description" content="This is the home page for the CS290 S21 project">
+      <title>Tessa Melli - Home</title>
+      <link rel="stylesheet" href="home_style.css" type="text/css">
+  </head>
+
+  <body>
+
+    <div class="heading">
+      <h1>Tessa Melli</h1>
+    </div>
+
+    <ul>
+      <li><a class="home" href="index.html">HOME</a></li>
+      <li><a class="about" href="about_page.html">ABOUT</a></li>
+      <li><a class="experience" href="experience_page.html">EXPERIENCE</a></li>
+      <li><a class="portfolio" href="portfolio_page.html">PORTFOLIO</a></li>
+      <li style="float:right"><a class="contact" href="contact_page.html">CONTACT</a></li>
+    </ul>
+
+    <div class="carousel">
+      <div class="innerDiv">
+        <div class="carouselPic">
+          <img  src='headshot.jpg' style='height: 100%;' />
+        </div>
+        <div class="carouselPic">
+          <img  src='skiing.jpg' style='height: 100%;' />
+        </div>
+        <div class="carouselPic">
+          <img  src='race.jpg' style='height: 100%;' />
+        </div>
+        <div class="carouselPic">
+          <img  src='hiking.jpg' style='height: 100%;' />
+        </div>
+        <div class="carouselPic">
+          <img  src='dog.jpg' style='height: 100%;' />
+        </div>
+      </div>
+        <a class="previous" onclick='advancePic(-1)'>&#10094;</a>
+        <a class="next" onclick='advancePic(1)'>&#10095;</a>
+      </div>
+      <br/>
+
+      <div style='text-align: center;'>
+        <span class="dot" onclick='dotPic(1)'></span>
+        <span class="dot" onclick='dotPic(2)'></span>
+        <span class="dot" onclick='dotPic(3)'></span>
+        <span class="dot" onclick='dotPic(4)'></span>
+        <span class="dot" onclick='dotPic(5)'></span>
+      </div>
+
+    </div>
+
+    <footer>
+        Carousel code adapted from: <cite><a href="https://betterprogramming.pub/make-a-slideshow-with-automatic-and-manual-controls-using-html-css-and-javascript-b7e9305168f9" target="_blank">betterprogramming</a></cite>
+    </footer>
+
+    <script src="home_script.js"></script>
+
+  </body>
+</html>

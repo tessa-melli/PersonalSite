@@ -1,0 +1,147 @@
+body {
+  background-color: #f4f1de
+}
+
+.heading {
+  background-color: #9e6b6b;
+  text-align: center;
+  margin: 0;
+  padding: 1px;
+  display: block;
+  font: 25px Helvetica;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #8a887d;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font: 20px Helvetica;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.home {
+    background-color: #9e6b6b;
+}
+.home:hover {
+    background-color: #9e6b6b;
+}
+.home:active {
+    background-color: #8a887d;
+}
+
+.about {
+    background-color: #8a887d;
+}
+.about:hover {
+    background-color: #5f8177;
+}
+.about:active {
+    background-color: #8a887d;
+}
+
+.experience {
+    background-color: #8a887d;
+}
+.experience:hover {
+  background-color: #de7254;
+}
+.experience:active {
+    background-color: #8a887d;
+}
+
+.portfolio {
+    background-color: #8a887d;
+}
+.portfolio:hover {
+    background-color: #3d405b;
+}
+.portfolio:active {
+    background-color: #8a887d;
+}
+
+.contact {
+    background-color: #8a887d;
+}
+.contact:hover {
+    background-color: #e7a336;
+}
+.contact:active {
+    background-color: #8a887d;
+}
+
+.carousel {
+    max-width: 510px;
+    position: relative;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carouselPic {
+    display: none;
+    height: 500px;
+    border: solid 5px #9e6b6b;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.previous,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #8a887d;
+    font-weight: bold;
+    font-size: 30px;
+    transition: .6s ease;
+    border-radius: 0 5px 5px 0;
+}
+
+.next {
+    right: -50px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.previous {
+    left: -50px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.previous:hover,
+.next:hover {
+    color: #9e6b6b;
+    background-color: none;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #8a887d;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color .6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #9e6b6b;
+}

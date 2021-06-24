@@ -1,0 +1,161 @@
+body {
+  background-color: #f4f1de;
+}
+
+.heading {
+  background-color: #e7a336;
+  text-align: center;
+  margin: 0;
+  padding: 1px;
+  display: block;
+  font: 25px Helvetica;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #8a887d;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font: 20px Helvetica;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.home {
+    background-color: #8a887d;
+}
+
+.home:hover {
+    background-color: #9e6b6b;
+}
+
+.home:active {
+    background-color: #8a887d;
+}
+
+.about {
+    background-color: #8a887d;
+}
+
+.about:hover {
+    background-color: #5f8177;
+}
+
+.about:active {
+    background-color: #8a887d;
+}
+
+.experience {
+    background-color: #8a887d;
+}
+
+.experience:hover {
+  background-color: #de7254;
+}
+
+.experience:active {
+    background-color: #8a887d;
+}
+
+.portfolio {
+    background-color: #8a887d;
+}
+
+.portfolio:hover {
+    background-color: #3d405b;
+}
+
+.portfolio:active {
+    background-color: #8a887d;
+}
+
+.contact {
+    background-color: #e7a336;
+}
+
+.contact:hover {
+    background-color: #e7a336;
+}
+
+.contact:active {
+    background-color: #8a887d;
+}
+
+
+.userForm{
+	font: 95% Arial, Helvetica, sans-serif;
+	width: 80%;
+	margin: 10px auto;
+	padding: 16px;
+	background: #bdbcb2;
+}
+.userForm h1{
+	background: #e7a336;
+	padding: 20px 0;
+	font-size: 25px;
+	font-weight: 300;
+	text-align: center;
+	color: white;
+	margin: -16px -16px 16px -16px;
+}
+.userForm input[type="text"],
+.userForm input[type="email"],
+.userForm select
+{
+	outline: none;
+  border: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	background: white;
+	margin-bottom: 10px;
+	padding: 10px;
+	color: #555;
+	font: 95% Arial, Helvetica, sans-serif;
+}
+
+.userForm textarea {
+	outline: none;
+  border: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+  height: 100px;
+	background: white;
+	margin-bottom: 10px;
+  padding: 10px;
+	color: #555;
+	font: 95% Arial, Helvetica, sans-serif;
+}
+
+.userForm input[type="submit"]{
+	width: 250px;
+	padding: 15px;
+	background: #8a887d;
+  border: none;
+  font: 18px Arial, Helvetica, sans-serif;
+	color: white;
+}
+.userForm input[type="submit"]:hover,
+.userForm input[type="button"]:hover{
+	background: #e7a336;
+}
+
+.userForm input[type="submit"]:active,
+.userForm input[type="button"]:active {
+	background: #8a887d;
+}
